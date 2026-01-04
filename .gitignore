@@ -1,0 +1,26 @@
+# Audit outputs (contain IMEI, Serial, PII)
+A56_Audit*/
+audits/
+
+# Backup folders (personal data)
+backups/
+*.zip
+*.tar.gz
+*.7z
+
+# Bugreports (sensitive)
+bugreport*.zip
+bugreport*.txt
+
+# Android keystore/signing
+*.keystore
+*.jks
+
+# Temporary files
+*.log
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
